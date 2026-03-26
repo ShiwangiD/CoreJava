@@ -1,1 +1,90 @@
+1. What is Java?
+Java is a high-level, object-oriented programming language.
+It follows WORA (Write Once, Run Anywhere) using JVM.
+Code → compiled to bytecode → runs on JVM.
+
+2. Java Program Structure
+class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+
+3. Key Points:
+class → blueprint of program
+main() → entry point
+System.out.println() → prints output
+
+3. Data Types:
+i) Primitive Types:
+Type	Size	Example
+int	4 bytes	10
+float	4 bytes	10.5f
+double	8 bytes	10.99
+char	2 bytes	'A'
+boolean	1 bit true/false
+
+ii) Non-Primitive:
+String
+Arrays
+Classes
+
+4. Variables
+int a = 10;
+float b = 5.5f;
+String name = "John";
+
+5. Operators
+Arithmetic:
+
++ - * / %
+
+Relational:
+
+== != > < >= <=
+
+Logical:
+
+&& || !
+
+6. Control Statements
+if-else:
+if(a > 10){
+    System.out.println("Greater");
+} else {
+    System.out.println("Smaller");
+}
+switch:
+switch(day){
+    case 1: System.out.println("Monday"); break;
+    default: System.out.println("Invalid");
+}
+
+7. Loops
+for loop:
+for(int i = 0; i < 5; i++){
+    System.out.println(i);
+}
+while loop:
+int i = 0;
+while(i < 5){
+    i++;
+}
+do-while:
+do{
+    i++;
+}while(i < 5);
+
+ 8. Arrays
+int arr[] = {1, 2, 3, 4};
+System.out.println(arr[0]);
+
+9. Strings
+String s = "Java";
+System.out.println(s.length());
+System.out.println(s.toUpperCase());
+
+
+
+
 
