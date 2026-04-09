@@ -31,7 +31,3 @@ public class Class27 {
 }
 
 
-/* Static block :=
- * 
- * 
- */
